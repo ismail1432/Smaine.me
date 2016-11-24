@@ -1,0 +1,133 @@
+@media (max-device-width: 568px) 
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
+    li.brand{font-size: 22px;}
+    }
+        
+    /* Max devices (iphone 6...) */
+@media (max-device-width: 768px) {
+
+body{
+    max-width: 768px;
+    max-height: 100vh;       
+    }
+.navbar-default{
+    height: 15vh;
+    }
+#presentation{
+    display: flex;
+    height: 40vh;
+    }
+#skills{
+    text-align: center;
+    } 
+#chevron{
+    margin-top: -10vh;
+    }
+.speaking h1{
+    font-size: 26px;
+    } 
+.speaking h2{
+    font-size: 20px;
+    }
+      
+.navbar-header ul{
+    list-style-type: none;
+    display: flex;
+    }   
+.navbar-header li{
+    margin-right: 15px;
+    }    
+}
+        
+        
+/* Max devices big screen */
+@font-face{ 
+    font-family: 'AvenirNextCondensed.ttc';
+        src: url('fontSiteCv/AvenirNextCondensed.ttc');
+    font-family: 'Noteworthy.ttc';
+        src: url('fontSiteCv/Noteworthy.ttc');
+    font-family: 'BrushScript.ttf';
+        src: url('fontSiteCv/BrushScript.ttf');
+}
+        
+body{
+    background-image: url("pictures/presentation.jpg");
+    font-family: "Noteworthy", Arial, serif;
+    font-family: "AvenirNextCondensed", Arial, serif;              
+    }      
+#presentation{            
+    display: flex; 
+    color: white;           
+    }
+#chevron p{
+    margin-top: 10vh; /* poussé de la moitié de hauteur de viewport */
+        }
+#chevronGallery{
+        margin-top: 75px;
+        }
+        
+#contact{
+        margin-top: 10%;
+        color: white;
+        }
+         
+.nav{
+    color: #355284;
+    font-size: 20px;
+    margin-top: 10px;
+    }
+        
+@media (min-width: 768px) {
+.navbar-header{display: none;
+        }
+.error-msgname{
+    display: none;
+    color: red;
+        }
+}
+#gallery{
+     margin-top: 6%;        
+        }
+#gallery img{
+    border-radius: 10px;
+    border: 3px white double;
+        }
+       
+nav{
+    background-color: gainsboro;
+    height: 75px;
+      
+   }
+.brand{
+       
+    font-family: 'BrushScript.ttf';
+    font-size: 32px;
+        }
+.reseaux{
+    margin-top: 25px;
+        }
+#btn1{
+    color: black;
+        }       
+.speaking{
+    margin: auto;
+    margin-top: 25vh;
+        }
+#show1{
+    font-size: 28px;
+    border-color: red;
+    border-radius: 10px;
+    }
+.navbar-right li:hover{
+    border-style: dotted;
+    }
+.twiter{
+    margin-left: 25px;
+    margin-right: 25px;
+        }
+h3 a:hover{
+    color: grey;
+        }
+h3 a{
+    color: black;
+    }
