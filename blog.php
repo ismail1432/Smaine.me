@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <?php
-ini_set('display_errors','on');
-error_reporting(E_ALL);
+
 
 require('App/ArticleManager.php');
 require('App/Databaseconnect.php');
